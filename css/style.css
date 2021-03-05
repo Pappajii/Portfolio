@@ -379,7 +379,7 @@ body{
 
 
 
-@media (max-width:1172px){
+@media screen and (max-width:1172px){
 
 
     .image-dim{
@@ -399,7 +399,7 @@ body{
 
 }
 
-@media (max-width:1024px){
+@media screen and (max-width:1024px){
     .input2{
         width: 255px;
        
@@ -461,7 +461,7 @@ body{
 
 }
 
-@media (max-width:768px) {
+@media  screen and (max-width:768px) {
     
 
     .Get-in{
@@ -532,7 +532,7 @@ body{
 
 }
 
-@media (max-width:414px){
+@media (min-width:390px) and (max-width:579px){
     .contact{
         height: 600px;
     }
@@ -616,7 +616,7 @@ body{
     }
 
 }
-@media (max-width:390px){
+@media screen and (max-width:390px){
     .footer h6{
         font-size: 12px;
 
