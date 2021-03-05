@@ -534,7 +534,8 @@ body{
 
 @media (min-width:390px) and (max-width:579px){
     .contact{
-        height: 600px;
+        height: 500px;
+        margin-bottom: 60px;
     }
     .contact-details{
         text-align: center;
@@ -578,7 +579,7 @@ body{
     
     }
     .about-us{
-        height: 700px   ;
+        height: 500px   ;
     }
     .logoimg{
         height:60px ;
@@ -625,15 +626,22 @@ body{
         height: 600px;
     }
 
+    .contact-details{
+        text-align: center;
+    }
+
     .socialmedia{
         display: inline;
         position: relative;
         top: 90px;
-        left: 16px;
+        left: 20px;
+        
         
     }
     .skills{height: 600px;}
-
+    .skill-icon{
+        padding-bottom: 20px;
+    }
     .aboutimg{
 
         display: none;
@@ -645,13 +653,21 @@ body{
     
     
     }
+    .portfolio h1{
+        font-size: 60px;
+    }
     .about-us{
-        height: 800px;
+        height: 600px;
     }
     .logoimg{
         height:60px ;
         width:150px ;
       
+    }
+
+    .sm-icon{
+        
+        font-size: 15px;
     }
     .image-dim{
         height:200px; 
