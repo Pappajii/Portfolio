@@ -10,6 +10,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 }
 
 .header{
@@ -20,6 +21,7 @@
     position: fixed;
     top: 0;
     text-align: center;
+    z-index: 10;
 }
 
 .logo{
@@ -88,6 +90,12 @@ li{
     top: 220px;
     left: 1050px;
 }
+
+.cartoon-img:hover{    
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
 .img-cartoon{
     height: 650px;
 }
@@ -107,7 +115,7 @@ li{
 
 
 
-@media screen  and (max-width:375px){
+@media (max-width:375px){
     /* -----------------navigation----------------- */
     .fa-bars{       
         font-size: 25px;
@@ -122,6 +130,7 @@ li{
         top: 0%; left: -150% ;
         height: 100vh;
         width: 15rem;
+        z-index: 2;
         
         background-color: black;
       }
@@ -178,9 +187,10 @@ li{
 }
 
 
-@media (min-width:424px)  and (max-width:767px){
+@media (min-width:376px)  and (max-width:767px){
     /* -----------------navigation----------------- */
     .fa-bars{       
+        color: white;
         font-size: 25px;
         display: inline;
         padding-left: 70px;
@@ -193,6 +203,7 @@ li{
         top: 0%; left: -150% ;
         height: 100vh;
         width: 15rem;
+        z-index: 10;
         
         background-color: black;
       }
@@ -215,6 +226,7 @@ li{
         position: absolute;
         top: 150px;
         left: 60px;   
+        z-index: 0;
     }
     
     .img-bg{
@@ -229,6 +241,7 @@ li{
         position: absolute;
         top: 400px;
         left: 40px;
+        z-index: 1;
     }
     .img-cartoon{
         height: 350px;
