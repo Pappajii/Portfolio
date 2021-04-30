@@ -1,0 +1,702 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quotes{
+    color: #f9da08;
+}
+#Navbar{
+    padding: 15px 15%;
+    background-color:#f8f8f8;
+
+}
+.logoimg{
+    height:84px ;
+    width:210px ;
+  
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    height: 1000px;
+
+}
+
+.nav-s a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black ;
+}
+
+.nav-s a:hover{
+    color: black !important;
+    text-decoration:line-through;
+    text-decoration-color:#f9da08;
+    text-decoration-thickness: 3px;
+    
+}
+
+.active{
+    color: black !important;
+    
+    text-decoration:line-through;
+    text-decoration-color: #f9da08;
+    text-decoration-thickness: 3px;
+}
+
+.butprimary {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: black;
+    
+    font-size: 16px;
+    background: #f8f8f8;
+    
+    padding: 10px;
+    border: solid #f8f8f8 2px;
+    text-decoration: none;
+    border: solid black 2px;
+  }
+  
+.butprimary:hover {
+    color: black;
+    background: #f9da08;
+    text-decoration: none;
+    border: solid #f9da08 2px;
+    
+    
+}
+
+.butsec {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: black;
+    background: #f9da08;
+    text-decoration: none;
+    border: solid #f9da08 2px;
+    
+    font-size: 16px;
+    background: #f9da08;
+    padding: 10px;
+    border: solid #f9da08 2px;
+    text-decoration: none;
+  }
+  
+.butsec:hover {
+    color: black;
+    background: #f8f8f8;
+    text-decoration: none;
+    border: solid black 2px;
+    
+}
+.butsec1 {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: black;
+    background: #f9da08;
+    text-decoration: none;
+    border: solid #f9da08 2px;
+    
+    font-size: 16px;
+    background: #f9da08;
+ 
+    border: solid #f9da08 2px;
+    text-decoration: none;
+  }
+  
+.butsec1:hover {
+    color: black;
+    background: #f8f8f8;
+    text-decoration: none;
+    border: solid black 2px;
+    
+}
+
+/* Main section */
+
+.main-section{
+    height: 420px;
+    margin-top: 115px;
+    text-align: left;
+    background-color:#f8f8f8;
+    padding: 20px 15%;
+    position: relative;
+   
+}
+
+.namediv h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 700;
+    align-items: center;
+    padding-top: 80px;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+
+.image-dim{
+    position: absolute;
+    right: 60px;
+    height:400px; 
+    width:400px;
+}
+
+/* about-us */
+
+
+.about-us{
+    height: 500px   ;
+    padding: 20px 15%;
+    position: relative;
+    
+ 
+    
+}
+.about-us h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 0;
+}
+.about-us h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+.about-content{
+    position: absolute;
+    top: 80px;
+
+
+}
+.aboutimg{
+
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+}
+
+.about-us h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 0;
+    color: rgb(68, 68, 68);
+}
+.dot{
+    color: #f9da08;
+}
+
+
+/* social media */
+
+.socialmedia{
+    display: inline;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    
+}
+.sm-a{
+    color: rgb(68, 68, 68);
+}
+.sm-a:hover{
+    color:#f9da08;
+}
+.sm-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    
+}
+.sm-ico{
+    
+    padding-right: 20px;
+    font-size: 20px;
+    
+}
+
+
+/* Skills */
+.skills{
+    text-align: center;
+    padding: 50px 5%;
+    background-color: rgb(68, 68, 68);
+     
+}
+.skill-icon{
+    font-size: 100px;
+}
+.skill-a{
+    color: white;
+}
+
+.skill-a:hover{
+    color: #f9da08;
+    
+}
+
+
+/* Portfolio */
+.portfolio{
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+ 
+   
+}
+
+.portfolio h1{
+    font-size: 100px;
+    color: #f9da08;
+  
+}
+.port{
+    color: black;
+}
+
+/* contact */
+.contact{
+    background-color: #f8f8f8;
+    padding: 5px 5%;
+    height: 350px;
+    text-align: left;
+    position: relative;
+}
+
+.cont-form{
+    padding: 10px;
+    display: inline-block;
+   
+    
+
+
+}
+
+.input1 {
+    width: 250px;
+    resize: none;
+    border-width: 0px 0px 2px 0px;
+    background-color: #f8f8f8;
+ }
+
+ .input1:focus{
+    border-width: 0px 0px 2px 0px;
+    border-color: #f9da08;
+    outline-width: 0px;
+    
+ }
+.Get-in{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.input2{
+    width: 530px;
+    resize: none;
+    border-width: 0px 0px 2px 0px;
+    background-color: #f8f8f8;
+}
+.input2:focus{
+    border-width: 0px 0px 2px 0px;
+    border-color: #f9da08;
+    outline-width: 0px;
+    
+ }
+
+.contact-mainform{
+
+    position: absolute;
+    top: 30px;
+}
+.contact-details{
+    position: absolute;
+    top: 30px;
+    
+}
+.cont-me{
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Poppins', sans-serif ;
+}
+.cont-details-p{
+    font-family:'Poppins', sans-serif ;
+    font-size: 18px;
+}
+
+.details-link{
+    color: black;
+    text-decoration: none;
+}
+.details-link:hover{
+    color: #f9da08;
+    text-decoration: none;
+}
+
+/* footer */
+
+.footer{
+    padding: 20px 15%;
+    height: 70px;
+    background-color:rgb(68, 68, 68);
+    color: #f8f8f8;
+}
+.footer h6{
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+}
+/*------------------ RESPONSIVE---------------- */
+
+
+
+
+@media screen and (max-width:1172px){
+
+
+    .image-dim{
+        height:300px; 
+        width:300px;
+    }
+    .namediv h1{
+        font-weight: 700;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 50px;
+    }
+    .main-section{
+    padding: 20px 10%;
+    height: 320px;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    .input2{
+        width: 255px;
+       
+    }
+   
+    .socialmedia{
+        display: inline;
+        position: relative;
+        top: 0px;
+        left: -25px;
+        
+    }
+
+    .skill-icon{
+        font-size: 70px;
+    }
+    .aboutimg{
+
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 120px;
+        right: 80px;
+    }
+
+
+    .butsec {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .butprimary {
+        font-size: 13px;
+        padding: 5px;
+    }
+ 
+    .image-dim{
+        height:250px; 
+        width:250px;
+        position: absolute;
+        right: 60px;
+
+    }
+    .namediv h1{
+        font-weight: 700;
+        align-items: center;
+        padding-top: 40px;
+        font-size: 40px;
+    }
+    .main-section{
+        padding-right: 100px;
+        padding-left: 160px;
+        height: 270px;
+        }
+
+    #Navbar{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+}
+
+@media  screen and (max-width:768px) {
+    
+
+    .Get-in{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size:20px;
+
+    }
+    .cont-me{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size:20px;
+
+    }
+    .socialmedia{
+        display: inline;
+        position: relative;
+        top: -70px;
+        left: -45px;
+        
+    }
+    .skills{height: 150px;}
+    
+    .aboutimg{
+
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+    }
+    .about-us{
+        height: 650px   ;
+    }
+    
+
+    .butsec {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .butprimary {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .image-dim{
+        height:250px; 
+        width:250px;
+        position: absolute;
+        right: 40px;
+
+    }
+    .namediv h1{
+        font-weight: 700;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 30px;
+
+    }
+    .main-section{
+        padding-right: 50px;
+        padding-left: 50px;
+        }
+
+    #Navbar{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+}
+
+@media (min-width:390px) and (max-width:579px){
+    .contact{
+        height: 500px;
+        margin-bottom: 60px;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    .contact-mainform{
+        text-align: center;
+    }
+    .input2{
+        width: 255px;
+        
+       
+    }
+    .portfolio h1{
+        font-size: 70px;
+        color: #f9da08;
+      
+    }
+    .socialmedia{
+        display: inline;
+        position: relative;
+        top: 80px;
+        left: 16px;
+        
+    }
+
+    .skills{height: 650px;}
+    .skill-icon{
+        font-size: 70px;
+        padding: 10px;
+    }
+
+    .aboutimg{
+
+        display: none;
+    }
+    .about-content{
+        position: absolute;
+        top: 70px;
+        text-align: center;
+    
+    
+    }
+    .about-us{
+        height: 500px   ;
+    }
+    .logoimg{
+        height:60px ;
+        width:150px ;
+      
+    }
+    .image-dim{
+        height:200px; 
+        width:200px;
+        position: absolute;
+        right: 40px;
+        margin-top: 50px;
+
+    }
+    .namediv h1{
+        font-weight: 700;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 30px;
+        
+
+    }
+    .main-section{
+        padding-right: 50px;
+        padding-left: 50px;
+        text-align: center;
+        height: 450px;
+        margin-top: 60px;
+ 
+        }
+
+    #Navbar{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+}
+@media screen and (max-width:390px){
+    .footer h6{
+        font-size: 12px;
+
+    }
+    .contact{
+        height: 600px;
+    }
+
+    .contact-details{
+        text-align: center;
+    }
+
+    .socialmedia{
+        display: inline;
+        position: relative;
+        top: 90px;
+        left: 20px;
+        
+        
+    }
+    .skills{height: 600px;}
+    .skill-icon{
+        padding-bottom: 20px;
+    }
+    .aboutimg{
+
+        display: none;
+    }
+    .about-content{
+        position: absolute;
+        top: 70px;
+        text-align: center;
+    
+    
+    }
+    .portfolio h1{
+        font-size: 60px;
+    }
+    .about-us{
+        height: 600px;
+    }
+    .logoimg{
+        height:60px ;
+        width:150px ;
+      
+    }
+
+    .sm-icon{
+        
+        font-size: 15px;
+    }
+    .image-dim{
+        height:200px; 
+        width:200px;
+        position: absolute;
+        right: 40px;
+        margin-top: 50px;
+
+    }
+    .namediv h1{
+        font-weight: 700;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 30px;
+        
+
+    }
+    .main-section{
+        padding-right: 50px;
+        padding-left: 50px;
+        text-align: center;
+        height: 450px;
+        margin-top: 60px;
+ 
+        }
+
+    #Navbar{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+}
